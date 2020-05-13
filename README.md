@@ -39,10 +39,6 @@
 
 # 분석/설계
 
-## Event Storming 결과
-* MSAEz 로 모델링한 이벤트스토밍 결과: http://msaez.io/#/storming/hDfo3RRSORR952Fat5IbrH6Xtj72/every/0603347a781868520a77b002b9917653/-M78OoQcR0OeilfQEd4e
-
-
 ### 이벤트 도출
 ![es-01](https://user-images.githubusercontent.com/63624005/81627098-63b35d00-9438-11ea-9fcd-6908cd746957.jpeg)
 
