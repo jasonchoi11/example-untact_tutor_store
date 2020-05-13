@@ -33,7 +33,7 @@
 
 비기능적 요구사항
 1. 장애격리
-    1. 결제 기능이 수행되지 않더라도 구매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
+    1. 결제기능이 수행되지 않더라도 구매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
     1. 과외승인 기능이 수행되지 않더라도 판매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
 1. 성능
     1. 구매고객이 구매요청 최종상태를 스토어시스템(프론트엔드)에서 확인할 수 있어야 한다. CQRS
