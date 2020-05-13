@@ -1,7 +1,7 @@
 
 # 비대면 개인과외 스토어앱
 
-본 시스템은 MSA/DDD/Event Storming/EDA 를 포괄하는 분석/설계/구현/운영 전단계를 커버하도록 구성한 시스템입니다.
+본 시스템은 MSA/DDD/Event Storming/EDA 를 포괄하는 분석/설계/구현 전단계를 커버하도록 구성한 시스템입니다.
 
 # Table of contents
 
