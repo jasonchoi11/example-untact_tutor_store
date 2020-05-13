@@ -33,8 +33,8 @@
 
 비기능적 요구사항
 1. 장애격리
-    1. 과외승인 기능이 수행되지 않더라도 구매/판메 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
-    1. 결제시스템이 과중되면 승인시스템 관리자가 결제를 잠시후에 하도록 유도한다. 고객에게는 Pending상태로 보여준다. Circuit breaker, fallback
+    1. 결제 기능이 수행되지 않더라도 구매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
+    1. 과외승인 기능이 수행되지 않더라도 판매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
 1. 성능
     1. 구매고객이 구매요청 최종상태를 스토어시스템(프론트엔드)에서 확인할 수 있어야 한다. CQRS
     1. 판매고객이 구매요청 최종상태를 스토어시스템(프론트엔드)에서 확인할 수 있어야 한다. CQRS
