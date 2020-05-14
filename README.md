@@ -43,10 +43,12 @@
 # 분석/설계
 
 ### 이벤트 도출
+
 ![캡처1](https://user-images.githubusercontent.com/63624014/81873992-e1ea3d80-95b7-11ea-81af-82dd79422780.PNG)
 
 
 ### 부적격 이벤트 탈락
+
 ![캡처2](https://user-images.githubusercontent.com/63624014/81874011-edd5ff80-95b7-11ea-9e7e-cad6d2afe518.png)
 
     - 과정중 도출된 잘못된 도메인 이벤트들을 걸러내는 작업을 수행함
@@ -54,14 +56,17 @@
 
 
 ### 액터, 커맨드, 폴리시 부착
+
 ![캡처3](https://user-images.githubusercontent.com/63624014/81874027-fb8b8500-95b7-11ea-8c48-4ade5435d0cd.PNG)
 
 
 ### 어그리게잇으로 묶기
+
 ![캡처4](https://user-images.githubusercontent.com/63624014/81874048-06deb080-95b8-11ea-800a-1795ed782370.PNG)
 
 
 ### 바운디드 컨텍스트로 묶기
+
 ![캡처5](https://user-images.githubusercontent.com/63624014/81874059-10681880-95b8-11ea-96fa-21d7fc2d93e6.PNG)
 
     - 도메인 서열 분리
@@ -71,7 +76,6 @@
 
 
 ### 폴리시의 이동과 컨텍스트 매핑
-![캡처6](https://user-images.githubusercontent.com/63624014/81874092-1f4ecb00-95b8-11ea-9f23-d4de93761944.PNG)
 
 ![캡처8](https://user-images.githubusercontent.com/63624014/81874124-2f66aa80-95b8-11ea-8e62-1112bdbae86a.PNG)
 
