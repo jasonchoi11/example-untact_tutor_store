@@ -8,12 +8,7 @@
 - [비대면 개인과외 스토어앱](#---)
   - [서비스 시나리오](#서비스-시나리오)
   - [분석/설계](#분석설계)
-  - [구현:](#구현-)
-    - [DDD 의 적용](#ddd-의-적용)
-    - [폴리글랏 퍼시스턴스](#폴리글랏-퍼시스턴스)
-    - [폴리글랏 프로그래밍](#폴리글랏-프로그래밍)
-    - [동기식 호출 과 Fallback 처리](#동기식-호출-과-Fallback-처리)
-    - [비동기식 호출 과 Eventual Consistency](#비동기식-호출-과-Eventual-Consistency)
+  - [추가요구사항](#추가요구사항)
 
 # 서비스 시나리오
 
@@ -80,6 +75,7 @@
 ![캡처8](https://user-images.githubusercontent.com/63624014/81874124-2f66aa80-95b8-11ea-8e62-1112bdbae86a.PNG)
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
+
 ![캡처9](https://user-images.githubusercontent.com/63624014/81874143-368db880-95b8-11ea-88bd-da1049a610be.PNG)
 
     - 고객이 숙소를 선택하여 예약한다. (ok)
@@ -104,14 +100,40 @@
 
 ### 수정 모형    
     - 모든 요구사항을 커버함.
+
 ![캡처10](https://user-images.githubusercontent.com/63624014/81874156-41484d80-95b8-11ea-9d11-752a76ea2fdc.PNG)
 
     - 구현을 위해 영어로 표기함.
+
 ![캡쳐1](https://user-images.githubusercontent.com/63624014/81885052-75ca0280-95d4-11ea-918a-a2f37d1dcb18.PNG)
     
 
 ## 헥사고날 아키텍처 다이어그램 도출
+
 ![캡쳐2](https://user-images.githubusercontent.com/63624014/81885065-7ebad400-95d4-11ea-8a0a-576d81528718.PNG)
+
+
+# 추가요구사항 
+
+## 요구사항
+
+기능적 요구사항
+1. 구매고객에게 비대면 개인과외 만족도를 조사한다.
+
+비기능적 요구사항
+1. 장애격리
+    1. 고객만족도 응답기능이 행되지 않더라도 구매 요청은 365일 24시간 받을 수 있어야 한다. Async (event-driven), Eventual Consistency
+
+## 추가기능 반영모형
+
+![캡쳐3](https://user-images.githubusercontent.com/63624014/81885086-8a0dff80-95d4-11ea-9b49-ebb5870596c1.PNG)
+
+## 추가기능 헥사고날 아키텍처 다이어그램 도출
+
+![캡처4](https://user-images.githubusercontent.com/63624014/81885117-96925800-95d4-11ea-8ac5-4ee287dceafb.PNG)
+
+
+
 
 
 
