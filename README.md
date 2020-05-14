@@ -67,9 +67,9 @@
 ![캡처5](https://user-images.githubusercontent.com/63624014/81874059-10681880-95b8-11ea-96fa-21d7fc2d93e6.PNG)
 
     - 도메인 서열 분리
-      . Core Domain : 구매, 판매요청 
-      . Supporting Domain : 승인, 개인과외
-      . General Domain : 결제, 송금
+      . Core Domain : 구매, 판매등록 
+      . Supporting Domain : 판매승인, 과외상품
+      . General Domain : 결제
 
 
 ### 폴리시의 이동과 컨텍스트 매핑
@@ -93,7 +93,7 @@
     - 개인과외 판매고객이 자신이 등록한 개인과외 상태를 중간 중간 조회한다. (ok)
     - 승인시스템 관리자가 판매 승인요청 대상을 중간 중간 조회한다.(ok)
  
-    - 트랜잭션 (1)
+    - 트랜잭션 (1) 
       . 결제가 되지 않은 구매건은 아예 거래가 성립되지 않아야 한다 Sync 호출 (fail)
     - 장애격리 (2)
       . 결제기능이 수행되지 않더라도 구매 요청은 365일 24시간 받을 수 있어야 한다. (ok)
