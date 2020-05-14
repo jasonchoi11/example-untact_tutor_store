@@ -76,6 +76,11 @@
 
 ![캡처8](https://user-images.githubusercontent.com/63624014/81874124-2f66aa80-95b8-11ea-8e62-1112bdbae86a.PNG)
 
+  - Correlation Key
+      . 구매, 결제 : purchaseId
+      . 판매등록, 판매승인, 과외관리 : tutorId
+      . 결제, 송금 : accountId
+
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
 ![캡처9](https://user-images.githubusercontent.com/63624014/81874143-368db880-95b8-11ea-88bd-da1049a610be.PNG)
