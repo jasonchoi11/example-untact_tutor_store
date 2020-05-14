@@ -76,7 +76,7 @@
 
 ![캡처8](https://user-images.githubusercontent.com/63624014/81874124-2f66aa80-95b8-11ea-8e62-1112bdbae86a.PNG)
 
-  - Correlation Key
+    - Correlation Key
       . 구매, 결제 : purchaseId
       . 판매등록, 판매승인, 과외관리 : tutorId
       . 결제, 송금 : accountId
