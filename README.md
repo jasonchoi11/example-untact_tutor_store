@@ -73,9 +73,10 @@
 ### 폴리시의 이동과 컨텍스트 매핑
 ![캡처6](https://user-images.githubusercontent.com/63624014/81874092-1f4ecb00-95b8-11ea-9f23-d4de93761944.PNG)
 
+![캡처8](https://user-images.githubusercontent.com/63624014/81874124-2f66aa80-95b8-11ea-8e62-1112bdbae86a.PNG)
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
-![캡처7](https://user-images.githubusercontent.com/63624014/81874110-27a70600-95b8-11ea-96f5-aa17e449478f.PNG)
+![캡처9](https://user-images.githubusercontent.com/63624014/81874143-368db880-95b8-11ea-88bd-da1049a610be.PNG)
 
     - 고객이 숙소를 선택하여 예약한다. (ok)
     - 예약이 발생하면 숙소관리시스템에서 관리자가 예약을 확정한다. (ok)
@@ -99,7 +100,7 @@
 
 ### 수정 모형    
     - 모든 요구사항을 커버함.
-![캡처9](https://user-images.githubusercontent.com/63624014/81874143-368db880-95b8-11ea-88bd-da1049a610be.PNG)
+![캡처10](https://user-images.githubusercontent.com/63624014/81874156-41484d80-95b8-11ea-9d11-752a76ea2fdc.PNG)
 
     - 구현을 위해 영어로 표기함.
 ![캡쳐1](https://user-images.githubusercontent.com/63624014/81885052-75ca0280-95d4-11ea-918a-a2f37d1dcb18.PNG)
